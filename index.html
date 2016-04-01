@@ -1,86 +1,36 @@
-<!DOCTYPE html>
-<html>
-	<head>
-        <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
-        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab|Roboto|Roboto+Condensed' rel='stylesheet' type='text/css'>
-        <title>My Portfolio</title>
-        <!-- Start VisualLightBox.com HEAD section -->
-		<link rel="stylesheet" href="index_files/vlb_files1/vlightbox1.css" type="text/css" />
-		<link rel="stylesheet" href="index_files/vlb_files1/visuallightbox.css" type="text/css" media="screen" />
-<script src="index_files/vlb_engine/jquery.min.js" type="text/javascript"></script>
-		<script src="index_files/vlb_engine/visuallightbox.js" type="text/javascript"></script>
-		<!-- End VisualLightBox.com HEAD section -->
-        <script type="text/javascript">
-      $(document).ready(function(){
-    $("button").click(function(){
-        $("#logoimg").fadeIn();
-    });
-});
-    </script>
-    <script type="text/javascript" src="https://stratus.soundcloud.com/stratus.js"></script>
-<script type="text/javascript">
-  $(document).ready(function(){
-    $.stratus({
-      key: "aafaad19ce015a2d6e5db08b690e41f6",
-      links: "https://soundcloud.com/toko-dougherty/sets/soundcloud"
-      auto_play: true
-    });
-  });
-</script>
-    </head>
-    <body>
-    <div id="bottombarlayer">
-         <div id="hemail">
-        <p>toko.dougherty@gmail.com</p> 
-         </div>
-        <div id="Linkbar">
-          <a href="index.html" class="class1">Home</a>
-          <a href="Kali.html" class="class1">Kali</a>
-          <a href="WIPS.html" class="class1">Works</a>
-          <button>cool</button>
-            
-        </div>
-        <div id="logoimg"><img src="websitelogo.png" height="300" width="300"> </div>
-           
+---
+layout: page
+description: "A Clean Blog Theme by Start Bootstrap"
+---
 
-        <!--<div id="logo">
-          <p>Welcome to my site.</p>
-            
-        </div>
-        <div id="sub">
-        <p>I'm Toko Dougherty.</p></div>
-         <div id="bottombar">
-        <a href="https://www.youtube.com/channel/UCo8bE0dF3T56QlNQYlf7zZg"><img src="youtube-variation.png" width="40px"></a>
-            <a href="https://www.facebook.com/toko.dougherty"><img src="facebook.png" width="40px"></a>
-                <a href="mail:to:toko.dougherty@gmail.com"><img src="email.png" width="40px"></a>
-        </div>
-        -->
-        <div id="wrapper">
-            <div>
-            <div id="vlightbox1">
-	<a class="vlightbox1" href="index_files/vlb_images1/p1160339.jpg" title="Night Photograhy in Palo Alto"><img src="index_files/vlb_thumbnails1/p1160339.jpg" alt="Night Photograhy in Palo Alto"/></a>
-<a class="vlightbox1" href="index_files/vlb_images1/p1160323.jpg" title="Night Photograhy in Palo Alto"><img src="index_files/vlb_thumbnails1/p1160323.jpg" alt="Night Photograhy in Palo Alto"/></a>
-<a class="vlightbox1" href="index_files/vlb_images1/img_20151031_232900.jpg" title="Night Photograhy in Palo Alto"><img src="index_files/vlb_thumbnails1/img_20151031_232900.jpg" alt="Night Photograhy in Palo Alto"/></a>
-<a class="vlightbox1" href="index_files/vlb_images1/885608_823216877757697_7087594621311891847_o.jpg" title="Mock Magazine Ad"><img src="index_files/vlb_thumbnails1/885608_823216877757697_7087594621311891847_o.jpg" alt="Mock Magazine Ad"/></a>
-<a class="vlightbox1" href="index_files/vlb_images1/p1210483.jpg" title="Portrait"><img src="index_files/vlb_thumbnails1/p1210483.jpg" alt="Portrait"/></a>
-<a class="vlightbox1" href="index_files/vlb_images1/p1010173.jpg" title="Mock Magazine Ad"><img src="index_files/vlb_thumbnails1/p1010173.jpg" alt="Mock Magazine Ad"/></a>
-<a class="vlightbox1" href="index_files/vlb_images1/11072662_963797810305722_2389932604492130057_o.jpg" title="View Finder Closeup"><img src="index_files/vlb_thumbnails1/11072662_963797810305722_2389932604492130057_o.jpg" alt="View Finder Closeup"/></a>
-<a class="vlightbox1" href="index_files/vlb_images1/11136227_963797790305724_206628388676849685_o.jpg" title="View Finder Closeup"><img src="index_files/vlb_thumbnails1/11136227_963797790305724_206628388676849685_o.jpg" alt="View Finder Closeup"/></a>
-<a class="vlightbox1" href="index_files/vlb_images1/img_20150905_132332.jpg" title="Stairs"><img src="index_files/vlb_thumbnails1/img_20150905_132332.jpg" alt="Stairs"/></a>
-<a class="vlightbox1" href="index_files/vlb_images1/bandw.jpg" title="Stairs"><img src="index_files/vlb_thumbnails1/bandw.jpg" alt="Stairs"/></a>
-<span class="vlb">
-	<script src="index_files/vlb_engine/vlbdata1.js" type="text/javascript"></script></div>
-  <hr>
-  <div id="html5vid">
-    <video class='center' width="640" height="480" controls>
-      <source src="InterScholasticGamingLeague.mp4" type="video/mp4">
-    </video>
-  </div>
-        </div>
-        </div>
-       
-    
-    
-    
-    
-    </body>
+{% for post in paginator.posts %}
+<div class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+        <h2 class="post-title">            {{ post.title }}
+        </h2>
+        {% if post.subtitle %}
+        <h3 class="post-subtitle">
+            {{ post.subtitle }}
+        </h3>
+        {% endif %}
+    </a>
+    <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
+</div>
+<hr>
+{% endfor %}
+
+<!-- Pager -->
+{% if paginator.total_pages > 1 %}
+<ul class="pager">
+    {% if paginator.previous_page %}
+    <li class="previous">
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+    </li>
+    {% endif %}
+    {% if paginator.next_page %}
+    <li class="next">
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+    </li>
+    {% endif %}
+</ul>
+{% endif %}
