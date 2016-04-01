@@ -1,9 +1,9 @@
 # Site settings
-title: Clean Blog
-header-img: img/home-bg.jpg
-email: your-email@yourdomain.com
-copyright_name: Your/Project/Corporate Name
-description: "Write your site description here. It will be used as your sites meta description as well!"
+title: Scholar
+header-img: img/favicon.ico
+email: toko.dougherty@gmail.com
+copyright_name: Toko Dougherty
+description: "Rebel to the system, cause the system sucks."
 baseurl: ""
 url: "http://yourdomain.com"
 twitter_username: toko.dougherty
