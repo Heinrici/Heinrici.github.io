@@ -1,0 +1,398 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Local",
+				"LocalBoundsAndChildren	"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"paddn",
+				"padding-top"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"post",
+				"Post"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"rese",
+				"resources"
+			],
+			[
+				"follo",
+				"followed"
+			],
+			[
+				"class",
+				"class_name"
+			],
+			[
+				"followe",
+				"followed_id"
+			],
+			[
+				"fol",
+				"followed_id"
+			],
+			[
+				"foll",
+				"follower_id"
+			],
+			[
+				"currentLIne",
+				"CurrentLine"
+			],
+			[
+				"currentLine",
+				"CurrentLine"
+			],
+			[
+				"temp",
+				"tempvar"
+			],
+			[
+				"curer",
+				"CurrentLine"
+			],
+			[
+				"hoil",
+				"holidayDaystring"
+			],
+			[
+				"hol",
+				"holidayDay"
+			],
+			[
+				"holiday",
+				"holidayDaystring"
+			],
+			[
+				"curre",
+				"currentLinestring"
+			],
+			[
+				"holi",
+				"holidayDay"
+			],
+			[
+				"Hol",
+				"holidayMonth"
+			],
+			[
+				"get",
+				"getline"
+			],
+			[
+				"line",
+				"linecache"
+			],
+			[
+				"cure",
+				"CurrentLine"
+			],
+			[
+				"cu",
+				"CurrentLine"
+			],
+			[
+				"next",
+				"nextLine"
+			],
+			[
+				"diff",
+				"differenceFind"
+			],
+			[
+				"max",
+				"maxLine"
+			],
+			[
+				"ma",
+				"maxLine"
+			],
+			[
+				"read",
+				"readline"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"Cur",
+				"CurrentLine2"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"ali",
+				"align-content"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"alig",
+				"align-self"
+			],
+			[
+				"wid",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "package",
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"setting user",
+				"Preferences: Settings - User"
+			],
+			[
+				"package control ",
+				"Package Control: Install Package"
+			],
+			[
+				"prefe",
+				"Preferences: Settings - Default"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Toko/Desktop/website/index.html",
+		"/Users/Toko/Desktop/signup-concept/Resources.ux",
+		"/Users/Toko/Desktop/signup-concept/MainView.ux",
+		"/Users/Toko/Desktop/signup-concept/StateAnimation.ux",
+		"/Users/Toko/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/Toko/Desktop/agora/socify/app/models/user.rb",
+		"/Users/Toko/Downloads/ZeroBundle/ZeroNet/data/1KVg5vqKv4mdXh88yJq5qqMrGc2hb4U63Y/index.html",
+		"/Users/Toko/sitewebsite",
+		"/Users/Toko/privatekey",
+		"/Users/Toko/Rails/agora/webapptest/config/application_config.rb",
+		"/Users/Toko/Heinrici.github.io/Backup/stylesheet.css",
+		"/Users/Toko/Heinrici.github.io/Backup/stylesheet2.css",
+		"/Users/Toko/Rails/agora/RoR Web App/app/models/user.rb",
+		"/Users/Toko/Rails/underground/Gemfile",
+		"/Users/Toko/Rails/agora/RoR Web App/db/migrate/20160327014247_create_relationships.rb",
+		"/Users/Toko/Rails/agora/RoR Web App/app/views/layouts/_nav_guest.html.erb",
+		"/Users/Toko/Agora/AgoraConcept/app/assets/javascripts/application.js",
+		"/Users/Toko/Agora/AgoraConcept/app/assets/stylesheets/application.css.sass",
+		"/Users/Toko/Agora/AgoraConcept/app/views/layouts/Index.html.erb",
+		"/Users/Toko/Agora/AgoraConcept/config/routes.rb",
+		"/Users/Toko/Agora/AgoraConcept/app/controllers/pages_controller.rb",
+		"/Users/Toko/Agora/AgoraConcept/Gemfile",
+		"/Users/Toko/Heinrici.github.io/index.html",
+		"/Users/Toko/Rails/Kanye/app/views/pages/_post_form.html.erb",
+		"/Users/Toko/Rails/Kanye/app/views/Components/post_form.html.erb",
+		"/Users/Toko/Rails/Kanye/Gemfile",
+		"/Users/Toko/Rails/Kanye/config/environments/development.rb",
+		"/Users/Toko/Rails/Kanye/config/routes.rb",
+		"/Users/Toko/Rails/Kanye/app/views/pages/profile.html.erb",
+		"/Users/Toko/Rails/pinboard/Gemfile",
+		"/Users/Toko/bookmark/config/environments/development.rb",
+		"/Users/Toko/HolidayFinder/holidaylist.txt",
+		"/Users/Toko/HolidayFinder/essay",
+		"/Users/Toko/HolidayFinder/HolidayFinder.py",
+		"/Users/Toko/Documents/First/Portfolio/portfolio.github.io/index.html",
+		"/Users/Toko/Documents/First/Portfolio/index.html",
+		"/Users/Toko/Heinrici.github.io/test.html",
+		"/Users/Toko/Heinrici.github.io/jquery.js",
+		"/Users/Toko/Desktop/Do Homework - Toko Dougherty.html",
+		"/Users/Toko/Documents/First/Portfolio/stylesheet.css",
+		"/Users/Toko/Documents/First/Portfolio/WIPS.html",
+		"/Users/Toko/Documents/VisualLightBox/index.html"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"signupButton",
+			"signup",
+			"si",
+			"sig",
+			"package",
+			"links",
+			"edit",
+			"rake",
+			"content",
+			"relat",
+			"post",
+			"nextLine",
+			"script",
+			"bottom"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"gotonext"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.FuseBuildResults":
+	{
+		"height": 144.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 284.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
