@@ -2,13 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Your awesome title</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+    <description>A website detailing my thoughts.
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 25 Sep 2016 14:09:51 -0700</pubDate>
-    <lastBuildDate>Sun, 25 Sep 2016 14:09:51 -0700</lastBuildDate>
+    <pubDate>Mon, 26 Sep 2016 11:08:03 -0700</pubDate>
+    <lastBuildDate>Mon, 26 Sep 2016 11:08:03 -0700</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>State and Government</title>
+        <description>&lt;h2 id=&quot;state-and-government-a-21-century-guide-to-good-governance&quot;&gt;State and Government, a 21 Century Guide to Good Governance.&lt;/h2&gt;
+
+&lt;h3 id=&quot;the-role-of-government&quot;&gt;The Role of Government&lt;/h3&gt;
+
+&lt;p&gt;The end for the citizens inside a government is happiness. All else is a means of achieving happiness. Liberty as libertarians would like to claim is the end for government, however, it is simply a means.&lt;/p&gt;
+
+&lt;p&gt;The three needs of a government to provide happiness is as follows :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Liberty&lt;/li&gt;
+  &lt;li&gt;Economic Welfare, (jobs, housing)&lt;/li&gt;
+  &lt;li&gt;Safety&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Every being wants to achieve happiness, and governments are formed because of it. However, the way of achieving happiness is different. Every persons moral convictions are slightly different, however, generally in different cultures there arrives a general set of beliefs and values which more or less hold true for the inhabits of the whole culture. Governments are formed from these people holding similar moral convictions to best prioritize liberty, economic welfare, and safety according to the degree that the citizens hold those values. Revolution and counterrevolution will for the most part happen naturally if the happiness goes down far enough. If the government fails to provide happiness to its citizens, it is the citizens natural right to dissolve the current government and form new a one(s).&lt;/p&gt;
+
+&lt;p&gt;Technology fits in an interesting way. Generally techonolgy increases effiecency of production, allowing for greater welfare and therefore better happiness for its citizens. Therefore it is in the best interest of the people to invest in technology, as it indirectly increases happiness through the efficiency. However, governments should take into account and realize that technology is simply a means of economic welfare. The goal should never be technology for technologies sake, it should be to increase economic welfare and therefore happiness.&lt;/p&gt;
+
+&lt;p&gt;Another consideration to states is of the interconnections between liberty and economic welfare. Often times an increase in economic welfare will lead to an increase in liberty. Liberty does not just mean negative rights, such as protection from tyranny, it also means the ability to purse what you as an individual want. With better economic welfare, liberty to purse what you want will also increase as well.&lt;/p&gt;
+
+&lt;h3 id=&quot;modern-day-examples&quot;&gt;Modern Day examples&lt;/h3&gt;
+
+&lt;p&gt;China - Many criticize the Chinese for a lack of liberty and general safety. Many are puzzled to why more citizens are not actively protesting due to the lack of liberty. Many put away the lack of protest as politcal repression on the part of the government, however this lack of protest is partly cultural. From before the rise of communism and even during communist rule, the focus on the collective was a big part of Chinese culture. The culture is less focused on individualism instead, its focused on collective well being. The goverment has its share of criticism however it has not failed to provide a rapid increase in economic welfare. And because in chinos culture there is less value held in liberty, the government has largely been accepted by its populace.&lt;/p&gt;
+
+&lt;p&gt;As said earlier, economic welfare and liberty are closely related. Therefore, in the future, with the rise of their middle class, the government will have to evolve with the increasing value that the citizens of the nation hold in liberty. They will have to ensure more and more liberty to adequately meet the changing demands of the people.&lt;/p&gt;
+
+&lt;h3 id=&quot;different-measures-of-success&quot;&gt;Different measures of success&lt;/h3&gt;
+
+&lt;p&gt;A countires gap per capita is used in todays world of a nations well being, however, the focus should be on average happiness.&lt;/p&gt;
+
+&lt;h3 id=&quot;on-democracy&quot;&gt;On Democracy&lt;/h3&gt;
+
+&lt;blockquote&gt;
+
+  &lt;p&gt;“but where the laws are not sovereign, there you find demagogues. The people become a monarch… such people, in its role as a monarch, not being controlled by law, aims at sole power and becomes like a master.”  Aristotle, Politics&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Aritotle considered unfettered Democracy a perversion of Constitutional government. The masses, easily moved by demagogues are quick to proclaim themselves the sovereign not laws. What follows is a tyrannical government, dictated by the whims of the masses. A confiscation of private property under the guise of equality.&lt;/p&gt;
+
+&lt;p&gt;In todays politics, the concept of democracy is sacrilegious, it is held up as the end all be all way of deriving designs of the government and state. Many today are quick to exclaim their support for the democratization of politics, pushing for removal of the electoral college and strengthening of state ballots. Yet when questioned on why democracy is good, they fail to give a proper answer. Stemming in part from the indoctrination of “American Values” instilled at a young age, they are taught that the liberty and democracy are absolute good things. What is failed to be explained is why those values are good to begin with. They are wrongly assuming that the values are self explanatory and the goal should be the total embodiment of these beliefs. As said earlier, happiness should be the end result, and other beliefs are means to that end.&lt;/p&gt;
+
+&lt;p&gt;Democracy is a measure of how people feel. Just because a government is more democratic does in no way imply that a citizenship is more happier.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 20 Sep 2016 17:53:16 -0700</pubDate>
+        <link>http://yourdomain.com/2016/09/20/State-and-Goverment.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2016/09/20/State-and-Goverment.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Welcome to Jekyll!</title>
