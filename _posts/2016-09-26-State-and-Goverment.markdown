@@ -1,12 +1,11 @@
 ---
 published: true
 layout: post
-title:  "State and Government"
+title:  "State and Government, a 21 Century Guide to Good Governance"
 date:   2016-09-20 17:53:16 -0700
 ---
 
 
-## State and Government, a 21 Century Guide to Good Governance. 
 
 
 ### The Role of Government

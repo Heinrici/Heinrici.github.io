@@ -21,8 +21,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>State and Government</title>
-  <meta name="description" content="State and Government, a 21 Century Guide to Good Governance.">
+  <title>State and Government, a 21 Century Guide to Good Governance</title>
+  <meta name="description" content="The Role of Government">
 
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://yourdomain.com/2016/09/20/State-and-Goverment.html">
@@ -39,7 +39,15 @@
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js">
       </script>
-      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js">
+        (function($){
+  $(function(){
+
+    $('.button-collapse').sideNav();
+
+  }); // end of document ready
+})(jQuery); // end of jQuery name space
+      </script>
 
 
 
@@ -51,17 +59,27 @@
 
     
       <div class="container">
+        <ul id="slide-out" class="side-nav">
+      <li><a href="#!">First Sidebar Link</a></li>
+      <li><a href="#!">Second Sidebar Link</a></li>
+    </ul>
+    <a href="#" data-activates="slide-out" class="button-collapse show-on-large"><i class="material-icons">menu</i></a>
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+<ul id="slide-out" class="side-nav">
+      <li><a href="#!">First Sidebar Link</a></li>
+      <li><a href="#!">Second Sidebar Link</a></li>
+    </ul>
+    <a href="#" data-activates="slide-out" class="button-collapse show-on-large"><i class="material-icons">menu</i></a
+
 <div class="container">
+<div class="card">
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">State and Government</h1>
+    <h1 class="post-title" itemprop="name headline">State and Government, a 21 Century Guide to Good Governance</h1>
     <p class="post-meta"><time datetime="2016-09-20T17:53:16-07:00" itemprop="datePublished">Sep 20, 2016</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <h2 id="state-and-government-a-21-century-guide-to-good-governance">State and Government, a 21 Century Guide to Good Governance.</h2>
-
-<h3 id="the-role-of-government">The Role of Government</h3>
+    <h3 id="the-role-of-government">The Role of Government</h3>
 
 <p>The end for the citizens inside a government is happiness. All else is a means of achieving happiness. Liberty as libertarians would like to claim is the end for government, however, it is simply a means.</p>
 
@@ -105,7 +123,9 @@
 
   </div>
 </div>
+</div>
 </article>
+
 
       </div>
       
